@@ -23,6 +23,13 @@ set incsearch
 set termguicolors
 set scrolloff=8
 set signcolumn=yes
+set splitbelow
+set splitright
+
+let mapleader = " "
+
+nnoremap <SPACE> <Nop>
+nnoremap <leader>n :NERDTreeToggle<cr>
 
 "Add vundle to runtime path
 set rtp+=~/.vim/bundle/Vundle.vim
