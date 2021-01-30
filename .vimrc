@@ -1,6 +1,8 @@
 set nocompatible
 filetype off
 
+packadd! dracula
+
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
@@ -28,8 +30,6 @@ set splitright
 
 let mapleader = " "
 
-nnoremap <SPACE> <Nop>
-nnoremap <leader>n :NERDTreeToggle<cr>
 
 "Add vundle to runtime path
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -44,8 +44,14 @@ Plugin 'VundleVim/Vundle.vim'
 """"""""""""""""""""""""""""
 
 Plugin 'scrooloose/nerdtree'
-
-
+Plugin 'jremmen/vim-ripgrep'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-utils/vim-man'
+Plugin 'lyuts/vim-rtags'
+Plugin 'kien/ctrlp.vim'
+Plugin 'mbbill/undotree'
+Plugin 'jlcrochet/vim-razor'
+Plugin 'OmniSharp/omnisharp-vim'
 
 """"""""""""""""""""""""""""
 "" End of plugin list
@@ -55,7 +61,14 @@ Plugin 'scrooloose/nerdtree'
 call vundle#end()
 filetype plugin indent on
 
+colorscheme dracula
 
-
+nnoremap <SPACE> <Nop>
+nnoremap <leader>n :NERDTreeToggle<cr>
+nnoremap <leader>x <C-x><C-o>
+nnoremap <leader>c :OmniSharpFindUsages<cr>
+nnoremap <leader>u :OmniSharpGotoDefinition<cr>
+nnoremap <leader>d :OmniSharpPreviewDefinition<cr>
+nnoremap <leader>r :!dotnet run
 
 
