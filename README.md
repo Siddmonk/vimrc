@@ -1,13 +1,11 @@
-VIMRC file configured for C#-Blazor development
-
+# VIMRC file configured for C#-Blazor development
 this vim configuration has been tested
-
 on Ubuntu 18.04LTS, 20.04LTS, and Linux Mint 20.01
 
 packages configured by A. Lloyd Hotchkiss
 
 
-Requirements
+# __Requirements__
 
 Vim 8.2+ (Huge) configured with python3.6
 
@@ -18,28 +16,29 @@ sudo apt install vim)
 vim-gtk3 
 (sudo apt-get install vim-gtk3)
 
-contents
-Nerdtree - File directory visualizer (Shortcut [SPACE] n) 'scrooloose/nerdtree' 
+### contents
 
-Ripgrep - Fast grep from vim (:Rg [expr]                  'jrhmmen/vim-ripgrep'
+__Nerdtree__ - File directory visualizer (Shortcut [SPACE] n) 'scrooloose/nerdtree' 
 
-Vim Fugitize - Git wrapper for vim                        'tpope/vim-fugitive'
+__Ripgrep__ - Fast grep from vim (:Rg [expr]                  'jrhmmen/vim-ripgrep'
 
-UndoTree - Undo tree visualizer (Shortcut [SPACE] u)      'mbbill/undotree'
+__Vim Fugitive__ - Git wrapper for vim                        'tpope/vim-fugitive'
 
-Vim-Razor - Razor syntax highlighting                     'jlcrochet/vim-razor'
+__UndoTree__ - Undo tree visualizer (Shortcut [SPACE] u)      'mbbill/undotree'
 
-Omnisharp - Text complete and IDE features                'OmniSharp/omnisharp-vim'
+__Vim-Razor__ - Razor syntax highlighting                     'jlcrochet/vim-razor'
 
-Asyncomplete - Omnisharp dependency for auto-complete     'prabirshrestha/asyncomplete.vim'
+__Omnisharp__ - Text complete and IDE features                'OmniSharp/omnisharp-vim'
 
-Vim-Illuminate - Auto highlight other usages keywords     'RRethy/vim-illuminate'
+__Asyncomplete__ - Omnisharp dependency for auto-complete     'prabirshrestha/asyncomplete.vim'
 
-Search-Pulse - Pulse animation after searching            'inside/vim-search-pulse'
+__Vim-Illuminate__ - Auto highlight other usages keywords     'RRethy/vim-illuminate'
 
-Vimspector - Vim debug plugin (experimental)              'puremourning/vimspector'
+__Search-Pulse__ - Pulse animation after searching            'inside/vim-search-pulse'
 
-Vimproc - Vimspector dependency                           'Shougo/vimproc.vim'
+__Vimspector__ - Vim debug plugin (experimental)              'puremourning/vimspector'
+
+__Vimproc__ - Vimspector dependency                           'Shougo/vimproc.vim'
 
 
 
