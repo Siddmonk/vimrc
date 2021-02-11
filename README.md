@@ -1,7 +1,11 @@
-""" VIMRC file configured for C#-Blazor development
-""" this vim configuration has only been tested
-""" on Ubuntu 18.04LTS
-""" packages configured by A. Lloyd Hotchkiss
+VIMRC file configured for C#-Blazor development
+
+this vim configuration has been tested
+
+on Ubuntu 18.04LTS, 20.04LTS, and Linux Mint 20.01
+
+packages configured by A. Lloyd Hotchkiss
+
 
 Requirements
 
